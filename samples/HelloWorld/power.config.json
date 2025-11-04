@@ -1,0 +1,12 @@
+{
+  "appId": "953eeb51-edc5-4e42-a127-b8f752bb867f",
+  "appDisplayName": "Hello World",
+  "description": null,
+  "environmentId": "5771b751-57fa-e791-b01d-52df3cb38101",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "logoPath": "Default",
+  "localAppUrl": "http://localhost:3000/",
+  "connectionReferences": {},
+  "databaseReferences": {}
+}
