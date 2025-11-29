@@ -2,11 +2,21 @@
   "appId": "953eeb51-edc5-4e42-a127-b8f752bb867f",
   "appDisplayName": "Hello World",
   "description": null,
+  "region": "prod",
   "environmentId": "5771b751-57fa-e791-b01d-52df3cb38101",
   "buildPath": "./dist",
   "buildEntryPoint": "index.html",
   "logoPath": "Default",
   "localAppUrl": "http://localhost:3000/",
-  "connectionReferences": {},
+  "connectionReferences": {
+    "944faf54-7a83-4451-9f1c-543e78c7304b": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_office365users",
+      "displayName": "Office 365 Users",
+      "dataSources": [
+        "office365users"
+      ],
+      "dataSets": {}
+    }
+  },
   "databaseReferences": {}
 }
